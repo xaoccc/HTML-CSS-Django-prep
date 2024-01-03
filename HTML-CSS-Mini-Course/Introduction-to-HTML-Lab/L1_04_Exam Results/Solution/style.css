@@ -1,0 +1,27 @@
+th, table, td {
+    border-color: black;
+    border-style: solid;
+}
+td, th {
+    margin: 0;
+    border-spacing: 0;
+}
+td{
+    border-width: 1px 1px 0 0;
+    padding: 10px;
+}
+
+th {
+    padding: 10px 20px;
+}
+
+table {
+    border-width: 0 0 1px 1px;
+    margin: 30px auto;
+    border-spacing: 0;
+    font-family: sans-serif;
+}
+
+th {
+    border-width: 1px 1px 0 0;
+}
