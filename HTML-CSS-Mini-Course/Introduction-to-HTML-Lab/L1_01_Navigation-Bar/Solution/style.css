@@ -4,7 +4,7 @@ body {
 }
 nav {
     padding: 15px;
-    background-color: #244767;
+    background-color: #234465;
     display: block;
     width: 100%;
 }
@@ -20,5 +20,5 @@ nav ul li {
 a {
     text-decoration: none;
     color: white;
-    font-family: Arial;
+    font-family: 'Helvetica';
 }
