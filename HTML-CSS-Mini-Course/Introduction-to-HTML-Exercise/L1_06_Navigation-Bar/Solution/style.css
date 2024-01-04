@@ -4,21 +4,30 @@ body {
 }
 nav {
     padding: 15px;
-    background-color: #234465;
+    background-color: #d3d3d3;
     display: block;
     width: 100%;
 }
 ul {
     margin: 0;
+    padding: 10px 0;
     display: flex;
     justify-content: center;
 }
 nav ul li {
     display: inline-block;
-    padding: 18px;
+
 }
-a {
+li a {
+    padding: 18px;
+    border-radius: 8px;
     text-decoration: none;
-    color: white;
+    color: #009900;
     font-family: 'Helvetica';
+}
+
+a:hover {
+    background-color: #009900;
+    cursor: pointer;
+    color: white;
 }
