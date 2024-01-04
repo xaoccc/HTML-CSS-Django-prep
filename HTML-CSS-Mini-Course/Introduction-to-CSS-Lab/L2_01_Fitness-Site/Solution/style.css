@@ -32,7 +32,7 @@ h3, h1 {
     margin-top: 0;
 }
 
-hi {
+h1 {
     font-size: 40px;
     width: 60%;
 }
@@ -80,7 +80,7 @@ button:hover {
     cursor: pointer;
 }
 
-article {
+#info > article {
     background-color: #f9690e;
     display: inline-block;
     padding: 40px;
