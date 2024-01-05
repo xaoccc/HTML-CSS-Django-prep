@@ -28,10 +28,6 @@ article {
     display: inline-block;
 }
 
-header article p {
-    color: #656565;
-}
-
 main > article {
     float: left;
 }
@@ -42,7 +38,8 @@ main > article {
     padding-right: 38px;
 }
 
-.article-text, p {
+p {
+    color: #656565;
     font-size: 20px;
 }
 
