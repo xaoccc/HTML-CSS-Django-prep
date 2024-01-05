@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+form {
+    width: max-content;
+    margin: 80px auto;
+}
+
+section {
+    display: inline-block;
+    width: 274px;
+}
+
+h1, p, .fa-regular {
+    text-align: center;
+    color: white;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin-bottom: 282px;
+}
+
+.fa-regular {
+    position: relative;
+    left: 129px;
+}
+
+#left {
+    height: 409px;
+    float: left;
+    background-image: linear-gradient(rgba(65, 115, 229, 0.5), rgba(76, 30, 30, 0.5)), url("../Requirements-and-Resources/Images/peak.jpg");
+    background-size: cover;
+    border-radius: 10px 0 0 10px;
+}
+
+#right {
+    border: #38082A 3px solid;
+    padding: 86px 17px 46px;
+    height: 271px;
+    float: right;
+    border-radius: 0 10px 10px 0;
+}
+
+
+
+#right a {
+    color: #38082A;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+input, label {
+    display: block;
+    margin-left: 50px;
+}
+
+label {
+    text-transform: uppercase;
+    color: rgb(218, 217, 220);
+    font-size: 14px;
+}
+
+input[type="text"] {
+    width: 156px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: darkgray 1px solid;
+    color: rgb(118, 115, 115);
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    margin-right: 5px;
+    background-color: #38082A;
+    padding: 10px 18px;
+    color: white;
+    float: left;
+    border: none;
+    border-radius: 8px;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    color: #38082A;
+    background-color: rgb(209, 163, 163);
+}
+
+#submit {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+
+
