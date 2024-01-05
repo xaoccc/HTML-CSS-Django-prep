@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+header, main {
+    width: 1311px;
+    margin: 0 auto;
+}
+
+header {
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 46px;
+    font-weight: 200;
+    letter-spacing: 9px;
+    margin-top: 0;
+}
+
+main {
+    padding-top: 40px;
+}
+
+article {
+    display: inline-block;
+}
+
+header article p {
+    color: #656565;
+}
+
+main > article {
+    float: left;
+}
+
+.article-text {
+    padding-top: 10px;
+    width: 396px;
+    padding-right: 38px;
+}
+
+.article-text, p {
+    font-size: 20px;
+}
+
+#left, #right {
+    border-left: rgb(101, 101, 101) 3px solid;
+    padding-left: 33px;
+}
+
+#left {
+    width: 829px;
+}
+
+#right {
+    width: 387px;
+    padding-right: 10px;
+}
+
+img {
+    height: 269px;
+    width: 419px;
+}
