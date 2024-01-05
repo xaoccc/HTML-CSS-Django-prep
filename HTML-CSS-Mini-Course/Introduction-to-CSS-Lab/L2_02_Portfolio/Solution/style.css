@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header, main {
+    width: 1440px;
+    margin: 0 auto;
+}
+header {
+    background-color: #f0f1f5;
+    color: #01bdbe;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+li:nth-child(1) {
+    border-left: white 2px solid;
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+    width: 220px;
+    padding: 25px 0;
+    border-right: white 3px solid;
+}
+
+.fa-solid, a {
+    display: block;
+    color: #00d3d4;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-solid {
+    margin: 0 auto;
+    width: 40px;
+    padding-bottom: 20px;
+}
+
+section {
+    display: inline-block;
+}
+
+#contacts {
+    background-color: #555c6f;
+}
+
+#about {
+    background-color: #00d3d4;
+}
+
