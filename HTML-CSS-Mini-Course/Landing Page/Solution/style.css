@@ -8,3 +8,46 @@ body {
     font-size: 16px;
 }
 
+li, ul, nav, header p {
+    display: inline-block;
+}
+
+header p {
+    font-size: 22px;
+    padding: 0 500px 0 10px;
+}
+
+header span {
+    color: #50b9e1;
+}
+
+header nav {
+
+}
+
+header ul li a {
+    text-decoration: none;
+    color: rgb(0,0,0);
+    font-weight: lighter;
+}
+
+.header {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url('../Requirements-and-Resources/Images/kids_main.jpg');
+    background-size: cover ;
+}
+
+.header h1 {
+    font-size: 66px;
+    color: rgb(256,256,256);
+    padding: 210px 100px 20px;
+}
+
+.header button {
+    font-size: 26px;
+    color: rgb(256,256,256);
+    background: none;
+    border: 2px rgb(256,256,256) solid;
+    margin: 10px 100px 200px;
+    padding: 10px;
+}
+
