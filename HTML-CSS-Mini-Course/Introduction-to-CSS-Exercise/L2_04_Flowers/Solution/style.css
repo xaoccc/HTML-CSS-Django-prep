@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500;600;700');
+
+
+body {
+    max-width: 1100px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    font-size: 16px;
+    color: rgb(256,256,256);
+}
+
+/*header and main*/
+ul {
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    display: inline-block;
+    padding: 15px 20px;
+}
+
+nav ul li a {
+    color: rgb(214,116,114);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li:hover a, li:hover {
+    color: rgb(256,256,256);
+    background-color: rgb(214,116,114);
+}
+
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("../Requirements-and-Resources/Images/header-flower.png");
+    background-size: cover;
+}
+
+h1, .header article, nav, .upper article {
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 37px;
+    padding-top: 220px;
+    font-weight: 500;
+    margin: 0 auto;
+}
+
+.header article {
+    padding: 7px 310px 230px;
+}
+
+hr {
+    width: 60px;
+    height: 2px;
+    border: none;
+}
+
+.header hr, .lower hr, .upper {
+    background-color: rgb(214,116,114);
+}
+
+.upper hr {
+    background-color: rgb(256,256,256);
+}
+.upper h1 {
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+
+.upper article {
+    margin: 20px auto 30px;
+}
+
+.upper {
+    padding: 0 310px 30px;
+}
+button {
+    background-color: rgb(256,256,256);
+    color: rgb(214,116,114);
+    padding: 15px 25px;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(194,76,74);
+    color: rgb(256,256,256);
+}
+
+.lower {
+    background-color: rgb(256,256,256);
+    color: rgb(170,170,170);
+    text-align: center;
+}
+
+.lower h1, h3 {
+    color: rgb(0,0,0);
+}
+
+.lower h1 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.lower h3 {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+#wrapper > article:nth-child(2) {
+    margin: 0 50px;
+}
+
+#wrapper {
+    padding: 20px 0 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.lower article{
+    display: inline-block;
+}
+
+.lower article img {
+    width: 95px;
+}
+
+.lower article p {
+    width: 170px;
+    font-size: 12px;
+}
+
+/*footer*/
+footer {
+    background-color: rgb(214,116,114);
+    padding: 1px 0;
+}
+footer p {
+    text-align: center;
+}
