@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@200;300;400;500;600;700');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@200;300;400;500;600;700');
 
 
 body {
@@ -14,15 +15,20 @@ li, ul, nav, header p {
 
 header p {
     font-size: 22px;
-    padding: 0 500px 0 10px;
+    padding: 5px 595px 5px 10px;
 }
 
 header span {
     color: #50b9e1;
 }
 
-header nav {
+.nav{
+    background-color: #fff;
+}
 
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url('../Requirements-and-Resources/Images/kids_main.jpg');
+    background-size: cover ;
 }
 
 header ul li a {
@@ -31,23 +37,198 @@ header ul li a {
     font-weight: lighter;
 }
 
-.header {
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url('../Requirements-and-Resources/Images/kids_main.jpg');
-    background-size: cover ;
+header ul li a:hover {
+    color: #50b9e1;
 }
+
+header .social i:hover {
+    border-color: #50b9e1;
+}
+
+header ul li {
+    margin-right: 10px;
+}
+
+.social {
+    padding-left: 19px;
+}
+
+header .social i {
+    border: #000 1px solid;
+}
+
+.social i {
+    padding: 5px;
+    border-radius: 50%;
+}
+
 
 .header h1 {
     font-size: 66px;
     color: rgb(256,256,256);
-    padding: 210px 100px 20px;
+    padding: 210px 125px 20px;
+    margin: 0 550px 0 0;
 }
 
-.header button {
+ .header button {
     font-size: 26px;
     color: rgb(256,256,256);
     background: none;
     border: 2px rgb(256,256,256) solid;
-    margin: 10px 100px 200px;
+    margin: 10px 125px 200px;
     padding: 10px;
+}
+
+.header button:hover {
+    background-color: #50b9e1;
+    border-color: #50b9e1;
+    color: rgb(256,256,256);
+    cursor: pointer;
+}
+
+main section h2 {
+    font-family: 'PT Serif', sans-serif;
+    text-align: center;
+    font-size: 32px;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+#upper {
+    width: 60%;
+}
+
+#upper, #lower{
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+#upper p, #middle p, #middle h4, #middle img, #lower > p {
+    text-align: center;
+}
+
+#upper h2, #lower h2, #upper p {
+    color: #5a7c8a;
+}
+
+#upper a {
+    color: #50b9e1;
+    text-decoration: none;
+}
+
+#middle {
+    font-family: 'PT Serif', sans-serif;
+    background-color: #50b9e1;
+    color: rgb(256,256,256);
+    padding-bottom: 40px;
+}
+
+#middle h2 {
+    padding: 40px 0;
+}
+
+article {
+    display: inline-block;
+}
+
+#middle article {
+    width: 25%;
+    padding: 0 50px 40px;
+
+    margin: 0 auto;
+}
+
+#middle img{
+    width: 72px;
+    display: block;
+    margin: 0 auto;
+}
+
+#lower {
+    padding: 30px 0;
+    color: #5a7c8a;
+}
+
+#lower article {
+    width: 400px;
+}
+
+#lower img {
+    width: 400px;
+    height: 218px;
+}
+
+#lower > p {
+    padding: 10px 325px 30px;
+}
+
+#lower > article:nth-child(4) {
+    margin: 0 45px;
+}
+
+#lower button {
+    font-size: 18px;
+    background: transparent;
+    color: #43bae3;
+    border: #43bae3 2px solid;
+    padding: 10px;
+}
+
+#lower button:hover {
+    background-color: #50b9e1;
+    border-color: #50b9e1;
+    color: rgb(256,256,256);
+    cursor: pointer;
+}
+
+.camp-info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-bottom: #5a7c8a 2px solid;
+    padding: 3px 0 10px;
+}
+
+.camp-info-left p{
+    margin: 0;
+}
+
+.camp-info-upper-left {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.camp-info-right {
+    background-color: #43bae3;
+    color: rgb(256,256,256);
+    padding: 10px;
+    font-size: 32px;
+}
+
+footer {
+    margin-top: 30px;
+    color: #5a7c8a;
+    background-color: #43bae3;
+}
+
+footer p {
+    padding: 0 700px 0 150px;
+}
+
+footer p, footer ul {
+    display: inline-block;
+}
+
+footer .social a {
+    color: #5a7c8a;
+}
+
+footer .social i {
+    border: #5a7c8a 1px solid;
+}
+
+footer .social i:hover {
+    border-color: rgb(256,256,256);
+    color: rgb(256,256,256);
 }
 

@@ -14,36 +14,36 @@ Problems for homework for the [“HTML and CSS Basics”](#) course @ **SoftUni*
     ~~* Add **color gradient** to the first section~~ - *You can use [online generator](https://mycolor.space/gradient)*
     ~~* The section title **font size** must be **66px**~~
     * The button should have the following properties:
-        * Font size - **26px**
-        * Background - **transparent**
-        * Border width - **2px**
-        * Border color - **white**
-        * Border style - **solid**
+        ~~* Font size - **26px**~~
+        ~~* Background - **transparent**~~
+        ~~* Border width - **2px**~~
+        ~~* Border color - **white**~~
+        ~~* Border style - **solid**~~
         * Hover effect *(look at the screenshots)*
-* Use **section** tag to create three **sections** inside the main
-* Use **h2** tag for the section headings
-    * Font family - **"PT Serif"**
-    * Font size - **32px**
-    * Font style - **italic**
-    * Letter spacing - **2px**
+~~* Use **section** tag to create three **sections** inside the main~~
+~~* Use **h2** tag for the section headings~~
+    * ~~Font family - **"PT Serif"**~~
+    ~~* Font size - **32px**~~
+    ~~* Font style - **italic**~~
+    ~~* Letter spacing - **2px**~~
 * The first section with title *"Welcome to Kids Corner"* should have the following properties:
-	* Width - **60%** 
-	* **Centered** text
-	* Text color - **#5a7c8a**
+	~~* Width - **60%**~~ 
+	~~* **Centered** text~~
+	~~* Text color - **#5a7c8a**~~
 * The second section with title *"Our offerings"*:
     ~~* List items **display** property - **inline-block**~~ 
-	* Text color - **white**
-	* Font family - **"PT Serif", serif**
+	~~* Text color - **white**~~
+	~~* Font family - **"PT Serif", serif**~~
 * Third section with title *"Upcoming Camps"*:
     ~~* List items **display** property - **inline-block**~~ 
-    * Text color - **#5a7c8a**
+    * ~~Text color - **#5a7c8a**~~
     * The buttons should have:
-        * Font size - **18px**
-        * Background - **transparent**
-        * Font color - **#43bae3**
-        * Border width - **2px**
-        * Border color - **#43bae3**
-        * Border style - **solid**
+        ~~* Font size - **18px**~~
+        ~~* Background - **transparent**~~
+        ~~* Font color - **#43bae3**~~
+        ~~* Border width - **2px**~~
+        ~~* Border color - **#43bae3**~~
+        ~~* Border style - **solid**~~
         * Hover effect *(look at the screenshots)*
 * The **footer** should have the following properties:
     * Font size - **16px**
