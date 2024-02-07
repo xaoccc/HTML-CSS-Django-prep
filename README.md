@@ -1,2 +1,1 @@
-# django
-Django exercises (including HTML. CSS and Python code)
+### HTML / CSS mini course at the beginning of Python Web Course
